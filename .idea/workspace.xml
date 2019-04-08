@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a6103f-3fe8-48b9-b7e2-71f15eaa11fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/model/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/eda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/label.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/eda.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="460">
+              <caret line="39" column="45" selection-end-line="39" selection-end-column="46" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+            <state relative-caret-position="217">
+              <caret line="63" column="75" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -55,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="35" />
     <option name="y" value="25" />
     <option name="width" value="1330" />
@@ -146,7 +145,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06913184" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -182,8 +180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/eda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="460">
+          <caret line="39" column="45" selection-end-line="39" selection-end-column="46" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -192,8 +190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/label.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        <state relative-caret-position="217">
+          <caret line="63" column="75" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="75" />
         </state>
       </provider>
     </entry>

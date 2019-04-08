@@ -60,7 +60,7 @@ fill_labels(row = 59423, create = 0, use = 0, pen = 0, repeat =0, geometry = 0, 
 #
 print(labels)
 
-
+student_num = 21
 labels['Anon Student Id'] = map_student.ix[student_num,  'Anon Student Id']
 labels['New Id'] = student_num
 labels.to_csv(filename)

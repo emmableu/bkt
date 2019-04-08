@@ -1,17 +1,17 @@
-,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note
-0,59423,0,0,0,0,0,0,code start
-,59426,0,0,0,0,0,1,custom block
-,59431,0,0,1,0,0,1,down
-,59434,1,0,1,0,0,1,varDec=sides
-,59438,1,0,1,1,0,1,dorepeat
-,59466,1,0,1,2,0,1,forward in repeat
-,59470,2,0,1,2,0,1,varDec=size
-,59473,3,0,1,2,0,1,varDec=thickness
-,59510,3,1,1,3,0,1,forward(length
-,59523,3,1,1,4,0,1,turn in repeat
-,59528,3,2,1,5,0,1,dorepeat(var=sides)
-,59597,3,2,1,5,1,1,reportQuotient1
-,59598,3,2,1,5,2,1,reportQuotient2
-,59602,3,3,1,6,3,1,reportQuotient3
-,59666,3,3,2,6,3,1,setSize(literal= 1)
-,59673,3,4,3,6,3,1,setSize(var=thickness)
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,59423,0,0,0,0,0,0,code start,SLfrAzfPftwqj3Yq,20
+,59426,0,0,0,0,0,1,custom block,SLfrAzfPftwqj3Yq,20
+,59431,0,0,1,0,0,1,down,SLfrAzfPftwqj3Yq,20
+,59434,1,0,1,0,0,1,varDec=sides,SLfrAzfPftwqj3Yq,20
+,59438,1,0,1,1,0,1,dorepeat,SLfrAzfPftwqj3Yq,20
+,59466,1,0,1,2,0,1,forward in repeat,SLfrAzfPftwqj3Yq,20
+,59470,2,0,1,2,0,1,varDec=size,SLfrAzfPftwqj3Yq,20
+,59473,3,0,1,2,0,1,varDec=thickness,SLfrAzfPftwqj3Yq,20
+,59510,3,1,1,3,0,1,forward(length,SLfrAzfPftwqj3Yq,20
+,59523,3,1,1,4,0,1,turn in repeat,SLfrAzfPftwqj3Yq,20
+,59528,3,2,1,5,0,1,dorepeat(var=sides),SLfrAzfPftwqj3Yq,20
+,59597,3,2,1,5,1,1,reportQuotient1,SLfrAzfPftwqj3Yq,20
+,59598,3,2,1,5,2,1,reportQuotient2,SLfrAzfPftwqj3Yq,20
+,59602,3,3,1,6,3,1,reportQuotient3,SLfrAzfPftwqj3Yq,20
+,59666,3,3,2,6,3,1,setSize(literal= 1),SLfrAzfPftwqj3Yq,20
+,59673,3,4,3,6,3,1,setSize(var=thickness),SLfrAzfPftwqj3Yq,20
