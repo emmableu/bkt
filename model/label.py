@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vupdate','Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 0
+student_num = 2
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
 def fill_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cblock, note):
@@ -58,13 +58,23 @@ def delete_label(row):
     print(labels)
 
 
+#
+# fill_labels(row = 3902,
+#             pcreate = 0, puse = 0,
+#             vcreate = 0,  vupdate = 0,
+#             pen = 0, repeat = 0,
+#             geometry = 0, cblock = 0,
+#             note = 'code start')
+#
 
-change_labels(row = 1942,
-            pcreate = 1, puse = 0,
+
+fill_labels(row = 3935,
+            pcreate = 0, puse = 0,
             vcreate = 0,  vupdate = 0,
-            pen = 0, repeat = 1,
+            pen = 1, repeat = 0,
             geometry = 0, cblock = 0,
-            note = '      doRepeat([!!!!!var=#of spiral], script)')
+            note = 'down')
+
 
 delete_label(79521)
 #
@@ -76,7 +86,7 @@ labels['New Id'] = student_num
 labels.to_csv(filename)
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv')
 for i in range(13, 15):
-    labels.ix[13, 'Use'] =4
+    labels.ix[2, 'Pen'] =1
 
 # fill_labels(row = 284, create = 0, use = 0, pen = 0, repeat = 0, geometry = 0, cblock = 0, note = "codestart")
 
