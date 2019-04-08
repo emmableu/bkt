@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Create', 'Use','Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 17
+student_num = 18
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/student' + str(student_num) + '-polygonMakerLab.csv'
 def fill_labels(row, create, use, pen, repeat, geometry, cblock, note):
@@ -55,7 +55,7 @@ def delete_label(row):
 
 
 
-fill_labels(row = 49041, create =3, use = 4, pen = 3, repeat =6, geometry = 3, cblock = 1, note = '         turn(!!!!!reportQuotient(literal=360, var=sides))')
+fill_labels(row = 51954, create =3, use = 4, pen = 3, repeat =6, geometry = 3, cblock = 1, note = '       setSize([var=thickness])')
 # delete_label(48821)
 #
 print(labels)
@@ -65,8 +65,8 @@ labels['Anon Student Id'] = map_student.ix[student_num,  'Anon Student Id']
 labels['New Id'] = student_num
 labels.to_csv(filename)
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv')
-for i in range(4, 7):
-    labels.ix[i, 'Create'] =2
+for i in range(4, 8):
+    labels.ix[i, 'Repeat'] =1
 
 # fill_labels(row = 284, create = 0, use = 0, pen = 0, repeat = 0, geometry = 0, cblock = 0, note = "codestart")
 
