@@ -18,7 +18,7 @@ def print_student_code(data, problem_name, student_num):
             if data.ix[i, 'Problem Name'] == problem_name:
                 c = c + 1
                 if type(data.ix[i, -1]) != float:
-                    filename = "generated-data/student" + str(student_num) + "-" + problem_name +'.txt'
+                    filename = "generated-data/squiralHW/student" + str(student_num) + "-" + problem_name +'.txt'
                     print("------------------------------------------------",  file = open(filename, 'a'))
                     print('NUMBER ', c, file = open(filename, 'a'))
                     print("Row: ", data.ix[i, "Row"],  file = open(filename, 'a'))
@@ -37,4 +37,4 @@ def print_student_code(data, problem_name, student_num):
                     print(this_codesnap,  file = open(filename, 'a'))
 
     print("all valid code count: ",valid_c,  file = open(filename, 'a'))
-print_student_code(data,'polygonMakerLab', 25)
+print_student_code(data,'squiralHW', 0)

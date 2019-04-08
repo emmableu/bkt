@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/eda.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="39" column="45" selection-end-line="39" selection-end-column="46" />
+            <state relative-caret-position="368">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="56" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="58" column="63" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="63" />
+            <state relative-caret-position="161">
+              <caret line="7" selection-start-line="7" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -145,10 +145,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="35" y="25" width="1885" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06913184" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0704533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,12 +161,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.4290188" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3681043" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.37835053" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.085209005" />
+      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.08683779" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -182,8 +182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/eda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="39" column="45" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="368">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="56" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -192,8 +192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/label.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="58" column="63" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="63" />
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="55" />
         </state>
       </provider>
     </entry>
