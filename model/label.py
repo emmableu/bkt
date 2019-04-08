@@ -3,6 +3,7 @@ pd.options.display.max_columns = 30
 col_names  = ['Row','Create', 'Use','Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv', index_col= 0)
+filename = 
 def fill_labels(row, create, use, pen, repeat, geometry, cblock, note):
     global labels
     for i in range(len(labels.index)):
@@ -20,7 +21,7 @@ def fill_labels(row, create, use, pen, repeat, geometry, cblock, note):
     labels.loc[len(labels)] = new_record
     # labels = labels.append(new_record, ignore_index = True)
     labels = labels.sort_values(['Row']).reset_index(drop=True)
-    labels.to_csv('generated-data/label2/student13-polygonMakerLab.csv')
+    labels.to_csv('generated-data/label2/student15-polygonMakerLab.csv')
     print(labels)
 
 
@@ -38,7 +39,7 @@ def change_labels(row, create, use, pen, repeat, geometry, cblock, note):
         if labels.ix[i, 'Row'] == row:
             labels.loc[i] = new_record
     labels = labels.sort_values(['Row']).reset_index(drop=True)
-    labels.to_csv('generated-data/label2/student13-polygonMakerLab.csv')
+    labels.to_csv('generated-data/label2/student15-polygonMakerLab.csv')
     print(labels)
 
 
@@ -48,7 +49,7 @@ def delete_label(row):
         if labels.ix[i, 'Row'] == row:
             labels = labels.drop(labels.index[i])
     labels = labels.sort_values(['Row']).reset_index(drop=True)
-    labels.to_csv('generated-data/label2/student13-polygonMakerLab.csv')
+    labels.to_csv('generated-data/label2/student15-polygonMakerLab.csv')
     print(labels)
 
 
