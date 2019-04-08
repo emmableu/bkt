@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Create', 'Use','Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 16
+student_num = 17
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/student' + str(student_num) + '-polygonMakerLab.csv'
 def fill_labels(row, create, use, pen, repeat, geometry, cblock, note):
@@ -55,8 +55,8 @@ def delete_label(row):
 
 
 
-fill_labels(row = 46601, create =3, use = 4, pen = 3, repeat =6, geometry = 3, cblock = 1, note = '  doRepeat([var=number of sides], ')
-# delete_label(42787)
+fill_labels(row = 49041, create =3, use = 4, pen = 3, repeat =6, geometry = 3, cblock = 1, note = '         turn(!!!!!reportQuotient(literal=360, var=sides))')
+# delete_label(48821)
 #
 print(labels)
 
