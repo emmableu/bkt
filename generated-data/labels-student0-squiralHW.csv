@@ -1,0 +1,12 @@
+,Row,Variable,Block,Loop,If_condition,Operator,IO,Note
+0,0,0,0,0,0,0,0,"for this student, row numbers are actually the NUMBER, ex: row 2233 is marked as row 308 here"
+1,7,0,1,0,0,0,0,created a custom block
+2,9,1,2,0,0,0,0,create a variable in custom block
+3,17,1,2,1,0,0,0,create a repeat in custom block
+4,22,2,2,2,0,0,0,repeat  block used a variable
+5,32,2,2,3,0,0,0,repeat  block has pen down and forward
+6,35,2,3,4,0,0,0,able to do draw something
+7,37,2,3,5,0,0,0,able to draw square
+8,308,3,3,5,0,1,0,reportProduct(4*number of spiral) added into repeat
+9,319,4,3,6,0,1,0,"change variable length in repeat block, now everthing is almost done, except there's a variable about the side length "
+10,345,4,3,6,0,1,0,"end of code, not successful, now everthing is almost done, except there's a variable about the side length "

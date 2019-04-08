@@ -1,0 +1,16 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,3532,0,0,0,0,0,0,code start,0XvedRAHjfbF8ZEi,1
+1,3551,0,0,0,0,0,1,customBlock=draw a polygon] ,0XvedRAHjfbF8ZEi,1
+2,3558,1,0,0,0,0,1,[varDec=size] ,0XvedRAHjfbF8ZEi,1
+3,3560,2,0,0,0,0,1,[varDec=sides],0XvedRAHjfbF8ZEi,1
+4,3562,3,0,0,0,0,1,[varDec=thickness],0XvedRAHjfbF8ZEi,1
+5,3597,3,0,1,0,0,1,down,0XvedRAHjfbF8ZEi,1
+6,3608,3,0,1,1,0,1,"doRepeat([literal=10], script)",0XvedRAHjfbF8ZEi,1
+7,3611,3,0,1,2,0,1,"doRepeat([literal=6], script-----> {forward([literal=10])})",0XvedRAHjfbF8ZEi,1
+8,3616,3,0,1,3,0,1,"doRepeat([literal=6], script {forward([literal=10])----->  turn([literal=15])})",0XvedRAHjfbF8ZEi,1
+9,3626,3,0,2,3,0,1,setSize([literal=1]),1XvedRAHjfbF8ZEi,1
+10,3676,3,1,3,3,0,1,setSize([----->var=thickness]),0XvedRAHjfbF8ZEi,1
+11,3680,3,2,3,4,0,1,"doRepeat([----->var=sides], ",0XvedRAHjfbF8ZEi,1
+12,3688,3,3,3,5,0,1, forward([var=size]),0XvedRAHjfbF8ZEi,1
+13,3700,3,3,3,5,2,1," turn(reportQuotient(----->[literal=360], literal))",0XvedRAHjfbF8ZEi,1
+14,3704,3,4,3,6,3,1,"turn(reportQuotient([literal=360], [var=sides]))",0XvedRAHjfbF8ZEi,1

@@ -1,0 +1,17 @@
+,Row,Variable,Block,Loop,If_condition,Operator,IO,Note
+0,284,0,0,0,0,0,0,
+1,313,0,0,0,0,1,0,"created reportQuotient, but parameters not filled"
+2,315,0,0,0,0,2,0,"only filled 360, not filled sides in reportQuotient"
+3,556,0,1,1,0,2,0,Created a repeat block
+4,558,0,1,2,0,2,0,put turn into repeat
+5,775,0,1,2,0,2,0,changesize is deleted for more than 100 steps
+6,814,1,2,2,0,2,0,"declare a variable that's passed into custom block, define a variable in the customer block"
+7,816,2,3,2,0,2,0,put another variable into custom block
+8,861,3,4,2,0,2,0,put the 3rd variable into custom block
+9,1056,3,4,2,0,3,0,reportQuotient gives the correct devider (sides)
+10,1058,3,4,2,0,3,1,"correct IO for more than 5 lines, although not needed in this homework"
+11,1065,3,4,3,0,3,1,correct repeat block
+12,1274,3,3,3,0,3,1,"put a number of codes into custom block, but not pass in any variable"
+13,1276,4,5,3,0,3,1,pass the 1st variable to custom block
+14,1282,5,6,3,0,3,1,pass the 2nd variable to custom block
+15,1283,6,7,3,0,3,1,pass the 3rd variable to custom block

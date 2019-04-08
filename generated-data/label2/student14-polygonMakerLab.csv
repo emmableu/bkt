@@ -1,0 +1,16 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,40202,0,0,0,0,0,0,code start,JBLFjjNKww2oP3kS,14
+1,40205,0,0,0,0,0,1,customBlock=draw square] {,JBLFjjNKww2oP3kS,14
+2,40220,0,0,1,0,0,1,down,JBLFjjNKww2oP3kS,14
+3,40224,0,0,1,1,0,1,"doRepeat([literal=10], script)",JBLFjjNKww2oP3kS,14
+4,40229,0,0,1,2,0,1,"      doRepeat([literal=4], script!!!!! {forward([literal=10])",JBLFjjNKww2oP3kS,14
+5,40232,0,0,1,3,0,1,"doRepeat([literal=4], script!!!!! {forward([literal=10])turn([literal=15])",JBLFjjNKww2oP3kS,14
+6,40368,1,0,1,3,0,1,[varDec=sides],JBLFjjNKww2oP3kS,14
+7,40418,2,0,1,3,0,1,[varDec=thickness],JBLFjjNKww2oP3kS,14
+8,40419,3,0,1,3,0,1,[varDec=length of size],JBLFjjNKww2oP3kS,14
+9,40448,3,1,1,4,0,1,        forward([var=length of size]),JBLFjjNKww2oP3kS,14
+10,40457,3,2,1,5,0,1,"   doRepeat([var=sides], s",JBLFjjNKww2oP3kS,14
+11,40464,3,3,2,5,0,1, !!!!!setSize([literal=1]),JBLFjjNKww2oP3kS,14
+12,40484,3,4,3,5,1,1,"     turn(!!!!!reportQuotient(literal, literal))",JBLFjjNKww2oP3kS,14
+13,40485,3,4,3,5,2,1,"turn(reportQuotient(!!!!![literal=360], literal))",JBLFjjNKww2oP3kS,14
+14,40490,3,4,3,6,3,1,"turn(reportQuotient([literal=360], !!!!![var=sides]))",JBLFjjNKww2oP3kS,14

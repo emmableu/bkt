@@ -1,0 +1,14 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,21282,0,0,0,0,0,0,code start,4lZnyzdZxnDjEsV.,6
+1,21289,0,0,0,0,0,1,customBlock=Polygon] ,4lZnyzdZxnDjEsV.,6
+2,21292,1,0,0,0,0,1, [varDec=lenght] ,4lZnyzdZxnDjEsV.,6
+3,21333,1,0,1,1,0,1,"doRepeat([literal=10], script)",4lZnyzdZxnDjEsV.,6
+4,21355,1,0,2,1,0,1,setSize([literal=1]),4lZnyzdZxnDjEsV.,6
+5,21399,1,0,2,3,0,1,"doRepeat([literal=10], script {forward([literal=100])turn([literal=60])",4lZnyzdZxnDjEsV.,6
+6,21718,2,0,2,3,0,1,   [varDec=pen-thickness],4lZnyzdZxnDjEsV.,6
+7,21728,3,0,2,3,0,1,[varDec=sides],4lZnyzdZxnDjEsV.,6
+8,21766,3,0,2,3,2,1,"turn(reportQuotient(!!!!![literal=360], literal))",4lZnyzdZxnDjEsV.,6
+9,21767,3,1,2,4,3,1,"turn(reportQuotient([literal=360], !!!!![var=sides]))",4lZnyzdZxnDjEsV.,6
+10,21770,3,2,2,5,3,1,forward([!!!!!var=sides]),4lZnyzdZxnDjEsV.,6
+11,21775,3,3,2,6,3,1,  doRepeat([var=sides],4lZnyzdZxnDjEsV.,6
+12,21778,3,4,3,6,3,1,   setSize([!!!!!var=pen-thickness]),4lZnyzdZxnDjEsV.,6

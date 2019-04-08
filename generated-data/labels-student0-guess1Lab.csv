@@ -1,0 +1,16 @@
+,Row,Variable,Block,Loop,If_condition,Operator,IO,Note
+0,1550,0,0,0,0,0,0,start of code
+1,1554,0,0,0,0,0,1,first doSayFor
+2,1580,1,0,0,0,0,1,"doSetVar([varMenu=Random number], [literal=0])"
+3,1584,1,0,0,0,1,1," reportRandom([literal=1], [literal=10])"
+4,1602,1,0,0,0,2,1,"         doIfElse(reportEquals(getLastAnswer, [var=Random number]), script {doSayFor(literal, [literal=2])}, script)"
+5,1609,1,0,1,0,2,1,"doUntil(literal, script)"
+6,1611,1,0,2,1,2,1,if in doUnitil block
+7,1623,2,0,3,1,2,1,"correct condition added for doUnitil: doUntil(reportEquals([var=Random number], getLastAnswer)"
+8,1744,2,0,3,1,2,2, getLastAnser in say
+9,1765,2,0,3,1,3,3,reportJoinWords in doSayFor
+10,1843,2,0,3,2,4,3,reportLessThan created (the second doIfElse in doUntil)
+11,1854,2,0,3,2,5,3,"var added in doIfElse: doIfElse(reportLessThan(getLastAnswer, [var=Random number])"
+12,1859,2,0,3,3,5,3,"doSayFor(literal, [literal=2]) in second doIfElse"
+13,1865,2,0,3,4,5,4,"another doSayFor(literal, [literal=2]) in second doIfElse, now everything is done except the ask in doRepeat"
+14,1903,2,0,3,4,5,5,"doAsk appeared in doRepeat,  entire code correct"

@@ -1,0 +1,17 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,31126,0,0,0,0,0,0,code start,AluUfNa8VMsQjoOu,9
+1,31149,0,0,0,0,0,1,customBlock=Draw a Square,AluUfNa8VMsQjoOu,9
+2,31156,0,0,1,0,0,1,down,AluUfNa8VMsQjoOu,9
+3,31163,0,0,1,1,0,1,"doRepeat([literal=10], script)",AluUfNa8VMsQjoOu,9
+4,31168,0,0,1,2,0,1," doRepeat([literal=4], script!!!!! {forward([literal=10])",AluUfNa8VMsQjoOu,9
+5,31171,0,0,1,3,0,1,"  doRepeat([literal=4], script {forward([literal=10])!!!!!  turn([literal=15])",AluUfNa8VMsQjoOu,9
+6,31193,1,0,1,3,0,1,     [varDec=Size],AluUfNa8VMsQjoOu,9
+7,31202,1,1,1,4,0,1,  forward([var=Size]),AluUfNa8VMsQjoOu,9
+8,31230,2,1,1,4,0,1,  [varDec=Sides],AluUfNa8VMsQjoOu,9
+9,31241,3,1,1,4,0,1,[varDec=Thickness] ,AluUfNa8VMsQjoOu,9
+10,31279,3,2,1,5,0,1, doRepeat([var=sides],AluUfNa8VMsQjoOu,9
+11,31360,3,2,1,5,1,1,"  turn(!!!!!reportQuotient(literal, literal))",AluUfNa8VMsQjoOu,9
+12,31361,3,2,1,5,2,1,"        turn(reportQuotient(!!!!![literal=360], literal))",AluUfNa8VMsQjoOu,9
+13,31366,3,3,1,6,3,1,"          turn(reportQuotient([literal=360], [var=Sides]))",AluUfNa8VMsQjoOu,9
+14,31384,3,3,2,6,3,1, setSize([literal=1]),AluUfNa8VMsQjoOu,9
+15,31389,3,4,3,6,3,1, setSize([!!!!!var=Thickness]),AluUfNa8VMsQjoOu,9

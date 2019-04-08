@@ -1,0 +1,16 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,34701,0,0,0,0,0,0, code start,Ay1Z0AHD5uq9gW7m,10
+1,34716,0,0,0,0,0,1,customBlock=Polygon Maker] {,Ay1Z0AHD5uq9gW7m,10
+2,34730,0,0,1,0,0,1,down,Ay1Z0AHD5uq9gW7m,10
+3,34738,0,0,0,1,0,1,"      doRepeat([literal=10], script)",Ay1Z0AHD5uq9gW7m,10
+4,34761,0,1,1,2,0,1,"      doRepeat([var=!!!!!# of sides], script), but the #of sides here is global",Ay1Z0AHD5uq9gW7m,10
+5,34768,0,1,2,2,0,1, setSize([literal=1]),Ay1Z0AHD5uq9gW7m,10
+6,34773,0,2,3,2,0,1,setSize([!!!!!var=thickness]),Ay1Z0AHD5uq9gW7m,10
+7,34781,0,2,3,3,0,1,         forward([literal=10]),Ay1Z0AHD5uq9gW7m,10
+8,34789,0,3,3,4,0,1," forward([var=length]), length here is global",Ay1Z0AHD5uq9gW7m,10
+9,34793,0,3,3,5,1,1,"        turn(!!!!!reportQuotient(literal, literal))",Ay1Z0AHD5uq9gW7m,10
+10,34794,0,3,3,5,2,1,"     turn(reportQuotient(!!!!![literal=360], literal))",Ay1Z0AHD5uq9gW7m,10
+11,34803,0,4,3,6,3,1,"          turn(reportQuotient([literal=360], !!!!![var=# of sides]))",Ay1Z0AHD5uq9gW7m,10
+12,34845,1,4,3,6,3,1,   [varDec=length],Ay1Z0AHD5uq9gW7m,10
+13,34846,2,4,3,6,3,1, [varDec=thickness],Ay1Z0AHD5uq9gW7m,10
+14,34849,3,4,3,6,3,1,     [varDec=# of sides],Ay1Z0AHD5uq9gW7m,10

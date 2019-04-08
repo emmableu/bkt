@@ -1,0 +1,18 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,36661,0,0,0,0,0,0,code start,CXTDTFPY4a3f0IZy,11
+1,36664,0,0,0,0,0,1,!  [customBlock=Draw Shape Size Sides Thickness] {,CXTDTFPY4a3f0IZy,11
+2,36674,1,0,0,0,0,1,    [varDec=Size],CXTDTFPY4a3f0IZy,11
+3,36676,3,0,0,0,0,1,    [varDec=Thickness],CXTDTFPY4a3f0IZy,11
+4,36694,3,0,1,0,0,1, down,CXTDTFPY4a3f0IZy,11
+5,36706,3,0,2,0,0,1,setSize([literal=1]),CXTDTFPY4a3f0IZy,11
+6,36724,3,1,3,0,0,1,      setSize([var=Thickness]),CXTDTFPY4a3f0IZy,11
+7,36728,3,1,3,1,0,1," doRepeat([literal=10], script)",CXTDTFPY4a3f0IZy,11
+8,36731,3,2,3,2,0,1,"doRepeat([!!!!!var=Sides], script)",CXTDTFPY4a3f0IZy,11
+9,36735,3,2,3,3,0,1," doRepeat([var=Sides], script!!!!! {forward([literal=10])",CXTDTFPY4a3f0IZy,11
+10,36739,3,1,3,2,0,1," doRepeat([var=Si!!!!!ze],  was previously sides",CXTDTFPY4a3f0IZy,11
+11,36767,3,1,3,3,0,1,turn([literal=15]),CXTDTFPY4a3f0IZy,11
+12,36780,3,1,3,3,1,1,"        turn(!!!!!reportQuotient(literal, literal))",CXTDTFPY4a3f0IZy,11
+13,36784,3,1,3,4,3,1,"        turn(reportQuotient([literal=360], !!!!![var=Sides]))",CXTDTFPY4a3f0IZy,11
+14,36789,3,2,3,4,3,1,"turn(reportQuotient([literal=360], !!!!![var=Sides]))",CXTDTFPY4a3f0IZy,11
+15,36826,3,3,3,5,3,1,doRepeat([var=Si!!!!!des],CXTDTFPY4a3f0IZy,11
+16,36840,3,4,3,6,3,1, forward([var=Size]),CXTDTFPY4a3f0IZy,11
