@@ -1,0 +1,15 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,69233,0,0,0,0,0,0,code start,V/1fll6WRZoRHj.m,23
+1,69237,0,0,0,0,0,1,customBlock,V/1fll6WRZoRHj.m,23
+2,69278,0,0,1,0,0,1,setsize,V/1fll6WRZoRHj.m,23
+3,69293,0,0,2,0,0,1,down,V/1fll6WRZoRHj.m,23
+4,69341,1,0,2,0,0,1, [varDec=Size],V/1fll6WRZoRHj.m,23
+5,69345,2,0,2,0,0,1, [varDec=Sides],V/1fll6WRZoRHj.m,23
+6,69346,3,0,2,0,0,1, [varDec=Thickness],V/1fll6WRZoRHj.m,23
+7,69576,3,1,2,0,0,1,"   forward([var=Size,])",V/1fll6WRZoRHj.m,23
+8,69577,3,1,2,0,2,1,  turn(report) not in repeat,V/1fll6WRZoRHj.m,23
+9,69581,3,2,2,0,3,1,  turn(report) complete not in repeat,V/1fll6WRZoRHj.m,23
+10,69593,3,3,3,0,3,1," setSize([var=Thickness,])",V/1fll6WRZoRHj.m,23
+11,69607,3,3,3,3,3,1,repeat,V/1fll6WRZoRHj.m,23
+12,69615,3,3,3,5,3,1,forward(size) in repeat,V/1fll6WRZoRHj.m,23
+13,69621,3,4,3,6,3,1,"  doRepeat([var=Sides], ",V/1fll6WRZoRHj.m,23
