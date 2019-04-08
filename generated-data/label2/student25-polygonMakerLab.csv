@@ -1,0 +1,18 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,79493,0,0,0,0,0,0,code start,Ybr/n153IFf3oSb.,25
+1,79503,0,0,1,0,0,1,  down,Ybr/n153IFf3oSb.,25
+2,79517,0,0,2,0,0,1,setsize,Ybr/n153IFf3oSb.,25
+3,79523,0,1,3,0,0,1,"   setSize([!!!!!var=Thickness]), Thickness here is global",Ybr/n153IFf3oSb.,25
+4,79535,1,1,3,0,0,1,varDec=size,Ybr/n153IFf3oSb.,25
+5,79575,2,1,3,0,0,1,   [varDec=Pen Thickness],Ybr/n153IFf3oSb.,25
+6,79577,3,1,3,0,0,1,   [varDec=# of Sides],Ybr/n153IFf3oSb.,25
+7,79607,3,2,3,0,0,1,    forward([!!!!!var=Size]),Ybr/n153IFf3oSb.,25
+8,79620,3,2,3,0,1,1,"         turn(!!!!!reportQuotient(literal, literal))",Ybr/n153IFf3oSb.,25
+9,79624,3,3,3,0,2,1,"         turn(!!!!!reportQuotient(literal, sides))",Ybr/n153IFf3oSb.,25
+10,79627,3,3,3,0,3,1,"         turn(!!!!!reportQuotient(360, sides))",Ybr/n153IFf3oSb.,25
+11,79791,3,3,3,1,3,1," doRepeat([literal=10], script)",Ybr/n153IFf3oSb.,25
+12,79794,3,4,3,2,3,1," doRepeat([!!!!!var=# of Sides], s",Ybr/n153IFf3oSb.,25
+13,79803,3,4,3,3,3,1,forward in repeat,Ybr/n153IFf3oSb.,25
+14,79829,3,4,3,4,3,1,        forward([var=# of Steps]),Ybr/n153IFf3oSb.,25
+15,79834,3,4,3,5,3,1,  turn in repeat,Ybr/n153IFf3oSb.,25
+16,79843,3,4,3,6,3,1,  turn  (360/sides)in repeat,Ybr/n153IFf3oSb.,25
