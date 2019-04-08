@@ -53,19 +53,19 @@ def delete_label(row):
 
 
 
-fill_labels(row = 38771, create = 3, use = 4, pen = 3, repeat = 6, geometry = 3, cblock = 1, note = '  doRepeat([!!!!!var=Sides], ')
+fill_labels(row = 43085, create =3, use = 3, pen = 3, repeat =4, geometry = 0, cblock = 1, note = '           forward([var=thickness])')
 
-delete_label(34712)
+delete_label(42787)
 #
 print(labels)
 
 
-labels['Anon Student Id'] = map_student.ix[13,  'Anon Student Id']
-labels['New Id'] = 13
-labels.to_csv('generated-data/label2/student13-polygonMakerLab.csv')
+labels['Anon Student Id'] = map_student.ix[15,  'Anon Student Id']
+labels['New Id'] = 15
+labels.to_csv('generated-data/label2/student15-polygonMakerLab.csv')
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv')
-for i in range(7, 13):
-    labels.ix[i, 'Use'] -=1
+for i in range(13, 16):
+    labels.ix[i, 'Repeat'] +=1
 
 # fill_labels(row = 284, create = 0, use = 0, pen = 0, repeat = 0, geometry = 0, cblock = 0, note = "codestart")
 

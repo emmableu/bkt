@@ -1,16 +1,17 @@
-,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
-0,38310,0,0,0,0,0,0, code start,HST/EkWzP3RZoSB6,13
-1,38318,0,0,0,1,0,0,"doRepeat([literal=10], script)",HST/EkWzP3RZoSB6,13
-2,38344,0,0,1,1,0,0,down,HST/EkWzP3RZoSB6,13
-3,38356,0,0,1,2,0,0,turn,HST/EkWzP3RZoSB6,13
-4,38456,0,0,1,2,0,1,customBlock=draw a square],HST/EkWzP3RZoSB6,13
-5,38458,1,0,1,2,0,1,  [varDec=size],HST/EkWzP3RZoSB6,13
-6,38535,1,1,1,4,0,1,forward([!!!!!var=size]),HST/EkWzP3RZoSB6,13
-7,38660,1,1,2,4,0,1,    setSize(1),HST/EkWzP3RZoSB6,13
-8,38661,2,1,2,4,0,1,    setSize(1);  [varDec=Thickness],HST/EkWzP3RZoSB6,13
-9,38666,2,2,3,4,0,1,      !!!!!setSize([var=Thickness]),HST/EkWzP3RZoSB6,13
-10,38674,2,2,3,4,1,1," turn(!!!!!reportQuotient(literal, literal))",HST/EkWzP3RZoSB6,13
-11,38675,2,2,3,4,2,1," turn(reportQuotient(!!!!![literal=360], literal))",HST/EkWzP3RZoSB6,13
-12,38676,3,2,3,4,2,1,    [varDec=Sides],HST/EkWzP3RZoSB6,13
-13,38679,3,3,3,4,3,1,"not in repeat block: turn(reportQuotient([literal=360], !!!!![var=Sides]))",HST/EkWzP3RZoSB6,13
-14,38771,3,4,3,6,3,1,"  doRepeat([!!!!!var=Sides], ",HST/EkWzP3RZoSB6,13
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note
+0,42785,0,0,0,0,0,0,code start
+1,42788,0,0,0,0,0,1,  [!!!!!customBlock=polygon] {
+2,42792,1,0,0,0,0,1,varDec=length
+3,42800,2,0,0,0,0,1,    [varDec=pen]
+4,42802,3,0,0,0,0,1, [varDec=sides]
+5,42809,3,1,0,0,0,1,   forward([!!!!!var=length]) but not in repeat
+6,42846,3,1,1,0,0,1, setSize([literal=1])
+7,42867,3,1,2,0,0,1, down
+8,43062,3,2,3,0,0,1,setSize([!!!!!var=thickness])
+9,43066,3,2,3,1,0,1,"oRepeat([literal=10], script)"
+10,43069,3,3,3,2,0,1,"      doRepeat([!!!!!var=sides], script)"
+11,43073,3,3,3,3,0,1,"   doRepeat([var=sides], script!!!!! {forward([literal=10])})"
+12,43085,3,3,3,4,0,1,           forward([var=thickness])
+13,43146,3,3,3,4,0,1, turn([literal=15]) in repeat
+14,43228,3,3,3,4,2,1,"  turn(reportQuotient([literal=360], literal))"
+15,43233,3,4,3,5,3,1,"         turn(reportQuotient([literal=360], !!!!![var=sides]))"

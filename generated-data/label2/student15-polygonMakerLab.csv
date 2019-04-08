@@ -1,0 +1,17 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,42785,0,0,0,0,0,0,code start,LLwQhNG7oYLuVTm.,15
+1,42788,0,0,0,0,0,1,  [!!!!!customBlock=polygon] {,LLwQhNG7oYLuVTm.,15
+2,42792,1,0,0,0,0,1,varDec=length,LLwQhNG7oYLuVTm.,15
+3,42800,2,0,0,0,0,1,    [varDec=pen],LLwQhNG7oYLuVTm.,15
+4,42802,3,0,0,0,0,1, [varDec=sides],LLwQhNG7oYLuVTm.,15
+5,42809,3,1,0,0,0,1,   forward([!!!!!var=length]) but not in repeat,LLwQhNG7oYLuVTm.,15
+6,42846,3,1,1,0,0,1, setSize([literal=1]),LLwQhNG7oYLuVTm.,15
+7,42867,3,1,2,0,0,1, down,LLwQhNG7oYLuVTm.,15
+8,43062,3,2,3,0,0,1,setSize([!!!!!var=thickness]),LLwQhNG7oYLuVTm.,15
+9,43066,3,2,3,1,0,1,"oRepeat([literal=10], script)",LLwQhNG7oYLuVTm.,15
+10,43069,3,3,3,2,0,1,"      doRepeat([!!!!!var=sides], script)",LLwQhNG7oYLuVTm.,15
+11,43073,3,3,3,3,0,1,"   doRepeat([var=sides], script!!!!! {forward([literal=10])})",LLwQhNG7oYLuVTm.,15
+12,43085,3,3,3,4,0,1,           forward([var=thickness]),LLwQhNG7oYLuVTm.,15
+13,43146,3,3,3,5,0,1, turn([literal=15]) in repeat,LLwQhNG7oYLuVTm.,15
+14,43228,3,3,3,5,2,1,"  turn(reportQuotient([literal=360], literal))",LLwQhNG7oYLuVTm.,15
+15,43233,3,4,3,6,3,1,"         turn(reportQuotient([literal=360], !!!!![var=sides]))",LLwQhNG7oYLuVTm.,15
