@@ -12,3 +12,6 @@
 10,55916,3,2,1,5,0,1," doRepeat([var=Sides], s",QgWvIWV/mT.GFG1G,19
 11,55923,3,2,2,5,0,1, setSize([literal=1]),QgWvIWV/mT.GFG1G,19
 12,55926,3,3,3,5,0,1,   setSize([!!!!!var=Thickness]),QgWvIWV/mT.GFG1G,19
+13,56023,3,3,3,5,1,1,reportQuotient1,QgWvIWV/mT.GFG1G,19
+14,56028,3,3,3,5,2,1,reportQuotient2,QgWvIWV/mT.GFG1G,19
+15,56029,3,4,3,6,3,1,reportQuotient3,QgWvIWV/mT.GFG1G,19
