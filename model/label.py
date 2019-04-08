@@ -1,19 +1,21 @@
 import pandas as pd
 pd.options.display.max_columns = 30
-col_names  = ['Row','Create', 'Use','Pen', 'Repeat', 'Geometry','Cblock','Note']
+col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vupdate','Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
 student_num = 0
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
-filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-polygonMakerLab.csv'
-def fill_labels(row, create, use, pen, repeat, geometry, cblock, note):
+filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
+def fill_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cblock, note):
     global labels
     for i in range(len(labels.index)):
         if labels.ix[i, 'Row'] == row:
             print("Row exist")
             return
     new_record = ({'Row': row,
-                    'Create': create,
-                   'Use': use,
+                    'Pcreate': pcreate,
+                   'Puse': puse,
+                   'Vcreate': vcreate,
+                   'Vupdate': vupdate,
                    'Pen': pen,
                    'Repeat':repeat,
                    'Geometry': geometry,
@@ -26,15 +28,17 @@ def fill_labels(row, create, use, pen, repeat, geometry, cblock, note):
     print(labels)
 
 
-def change_labels(row, create, use, pen, repeat, geometry, cblock, note):
+def change_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cblock, note):
     global labels
     new_record = ({'Row': row,
-                    'Create': create,
-                   'Use': use,
+                     'Pcreate': pcreate,
+                   'Puse': puse,
+                   'Vcreate': vcreate,
+                   'Vupdate': vupdate,
                    'Pen': pen,
                    'Repeat':repeat,
                    'Geometry': geometry,
-                   'Cblock': cblock,
+                   'Cblock':cblock,
                     'Note':note})
     for i in range(len(labels.index)):
         if labels.ix[i, 'Row'] == row:
@@ -55,7 +59,12 @@ def delete_label(row):
 
 
 
-fill_labels(row = 79493, create = 0, use = 0, pen = 0, repeat = 0, geometry = 0, cblock = 0, note = 'code start')
+change_labels(row = 1942,
+            pcreate = 1, puse = 0,
+            vcreate = 0,  vupdate = 0,
+            pen = 0, repeat = 1,
+            geometry = 0, cblock = 0,
+            note = '      doRepeat([!!!!!var=#of spiral], script)')
 
 delete_label(79521)
 #
