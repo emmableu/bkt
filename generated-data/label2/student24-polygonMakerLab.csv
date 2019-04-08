@@ -1,0 +1,16 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,75284,0,0,0,0,0,0,code start,Xv7xA7nrkTaib0MK,24
+1,75328,0,0,1,0,0,0,down,Xv7xA7nrkTaib0MK,24
+2,75333,0,0,1,1,0,0,repeat,Xv7xA7nrkTaib0MK,24
+3,75342,0,0,1,2,0,0, forward in repeat,Xv7xA7nrkTaib0MK,24
+4,75346,0,0,1,3,0,0, turn in repeat,Xv7xA7nrkTaib0MK,24
+5,75398,0,0,1,3,0,1,custom block,Xv7xA7nrkTaib0MK,24
+6,75628,1,0,1,3,0,1,        [varDec=size],Xv7xA7nrkTaib0MK,24
+7,75629,2,0,1,3,0,1,varDec=thickness,Xv7xA7nrkTaib0MK,24
+8,75652,3,0,1,3,0,1, varDec=sides,Xv7xA7nrkTaib0MK,24
+9,76185,3,1,1,4,0,1,   forward([var=length]),Xv7xA7nrkTaib0MK,24
+10,76210,3,2,1,5,0,1,"   doRepeat([var=sides], ",Xv7xA7nrkTaib0MK,24
+11,76268,3,2,1,5,1,1,"        turn(!!!!!reportQuotient(literal, literal)) ",Xv7xA7nrkTaib0MK,24
+12,76271,3,2,1,5,2,1,"        turn(!!!!!reportQuotient(360, literal)) ",Xv7xA7nrkTaib0MK,24
+13,76310,3,3,2,6,3,1,   setSize ,Xv7xA7nrkTaib0MK,24
+14,76313,3,4,3,6,3,1,         setSize([!!!!!var=thickness]) ,Xv7xA7nrkTaib0MK,24
