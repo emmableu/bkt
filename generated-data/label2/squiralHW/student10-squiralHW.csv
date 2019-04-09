@@ -1,0 +1,15 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,35023,0,0,0,0,0,0,0,0,0,code start,Ay1Z0AHD5uq9gW7m,10
+1,35047,0,0,1,0,0,0,0,0,0,!!!!!  [varDec=length],Ay1Z0AHD5uq9gW7m,10
+2,35050,0,0,1,0,0,1,0,0,0,down,Ay1Z0AHD5uq9gW7m,10
+3,35072,0,0,2,0,0,1,0,0,0,dosetvar,Ay1Z0AHD5uq9gW7m,10
+4,35087,0,0,2,1,0,1,0,0,0, forward([var=length]),Ay1Z0AHD5uq9gW7m,10
+5,35088,0,0,2,1,1,1,0,0,0,"        doChangeVar([varMenu=!!!!!length], [literal=5])",Ay1Z0AHD5uq9gW7m,10
+6,35108,0,0,2,1,1,1,1,0,0,repeat,Ay1Z0AHD5uq9gW7m,10
+7,35117,0,0,2,1,1,1,5,0,0,"repeat(forward correct, changevar correct)",Ay1Z0AHD5uq9gW7m,10
+8,35135,0,0,2,1,1,1,5,0,1,  [!!!!!customBlock=make a squiral with #of rotations] {,Ay1Z0AHD5uq9gW7m,10
+9,35148,1,0,2,1,1,1,5,0,1,Vardec = rotation ,Ay1Z0AHD5uq9gW7m,10
+10,35268,1,1,2,1,1,1,5,0,1," doRepeat([var=#of rotations], ",Ay1Z0AHD5uq9gW7m,10
+11,35202,1,1,2,1,1,1,6,1,1," doRepeat(reportProduct(!!!!![literal=4], [var=#of rotations]), sc",Ay1Z0AHD5uq9gW7m,10
+12,35267,1,1,2,1,1,1,7,1,1,turn in repeat,Ay1Z0AHD5uq9gW7m,10
+13,35268,1,1,2,1,1,1,8,1,1,turn correct degree,Ay1Z0AHD5uq9gW7m,10

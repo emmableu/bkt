@@ -1,0 +1,12 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,24226,0,0,0,0,0,0,0,0,0,code start,6sGoiaS7AvU3V9YO,7
+1,24241,0,0,0,0,0,0,0,0,1,[customBlock=Create a squiral of,6sGoiaS7AvU3V9YO,7
+2,24246,0,0,0,0,0,1,0,0,1,down,6sGoiaS7AvU3V9YO,7
+3,24272,0,0,1,0,0,1,0,0,1,varDec=steps,7sGoiaS7AvU3V9YO,7
+4,24275,0,0,1,1,0,1,0,0,1,forward(steps),7sGoiaS7AvU3V9YO,7
+5,24283,0,0,2,1,0,1,0,0,1,"  doSetVar([varMenu=!!!!!steps],   forward(steps) but not in repeat",6sGoiaS7AvU3V9YO,7
+6,24321,0,0,2,1,0,1,7,0,1,  dorepeat,6sGoiaS7AvU3V9YO,7
+7,24328,1,0,2,1,0,1,7,1,1,  [varDec=rotation ,6sGoiaS7AvU3V9YO,7
+8,24331,1,1,2,1,0,1,7,1,1, doRepeat([!!!!!var=rotation ,7sGoiaS7AvU3V9YO,7
+9,24341,1,1,2,1,0,1,8,1,1, correct amount of repeats,7sGoiaS7AvU3V9YO,7
+10,24371,1,1,2,1,1,1,8,1,1,"code end, correct",7sGoiaS7AvU3V9YO,7
