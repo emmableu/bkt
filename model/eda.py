@@ -37,4 +37,4 @@ def print_student_code(data, problem_name, student_num):
                     print(this_codesnap,  file = open(filename, 'a'))
 
     print("all valid code count: ",valid_c,  file = open(filename, 'a'))
-print_student_code(data,'squiralHW', 13)
+print_student_code(data,'squiralHW', 15)
