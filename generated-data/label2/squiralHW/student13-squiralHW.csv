@@ -1,0 +1,14 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,38867,0,0,0,0,0,0,0,0,0, code start,HST/EkWzP3RZoSB6,13
+1,38871,0,0,0,0,0,0,0,0,1,customBlock = Spiral,HST/EkWzP3RZoSB6,13
+2,38881,0,0,0,0,0,0,1,0,1,repeat,HST/EkWzP3RZoSB6,13
+3,38882,0,0,0,0,0,0,2,0,1,turn in repeat,HST/EkWzP3RZoSB6,13
+4,38885,1,0,0,0,0,0,2,0,1,    [varDec=Spirals],HST/EkWzP3RZoSB6,13
+5,38892,1,1,0,0,0,0,3,1,1,"   doRepeat(reportProduct([var=Spirals], !!!!![literal=4]), s",HST/EkWzP3RZoSB6,13
+6,38894,1,1,0,0,0,0,4,1,1,  forward in repeat,HST/EkWzP3RZoSB6,13
+7,38898,1,1,0,0,0,0,5,1,1,               turn([literal=90]),HST/EkWzP3RZoSB6,13
+8,38905,1,1,1,0,0,0,5,1,1,   [varDec=add],HST/EkWzP3RZoSB6,13
+9,38912,1,1,1,1,0,0,6,1,1,"  forward(reportSum([literal=10], !!!!![var=add]))",HST/EkWzP3RZoSB6,13
+10,38918,1,1,1,1,1,0,8,1,1,"        doChangeVar([varMenu=!!!!!add], [literal=10])",HST/EkWzP3RZoSB6,13
+11,38940,1,1,1,1,1,1,8,1,1,down,HST/EkWzP3RZoSB7,13
+12,38954,1,1,2,1,1,1,8,1,1,        dosetvar,HST/EkWzP3RZoSB7,13

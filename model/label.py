@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vuse','Update', 'Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 11
+student_num = 13
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
 def fill_labels(row, pcreate, puse, vcreate, vuse, update, pen, repeat, geometry, cblock, note):
@@ -61,22 +61,22 @@ def delete_label(row):
 
 
 
-fill_labels(row = 36937,
-            pcreate = 0, puse = 0,
-            vcreate = 0,  vuse = 0, update = 1,
-            pen = 0, repeat = 0,
-            geometry = 0, cblock = 0,
-            note = ' code start')
+fill_labels(row = 38898,
+            pcreate = 1, puse = 1,
+            vcreate = 0,  vuse = 0, update = 0,
+            pen = 0, repeat = 4,
+            geometry = 1, cblock =1,
+            note = '               turn([literal=90])')
 
 
-fill_labels(row = 37085,
-            pcreate = 0, puse = 0,
-            vcreate = 0,  vuse = 0, update = 1,
-            pen = 1, repeat = 3,
-            geometry = 0, cblock = 0,
-            note = 'code end, did not succeed')
+# fill_labels(row = 37085,
+#             pcreate = 0, puse = 0,
+#             vcreate = 0,  vuse = 0, update = 1,
+#             pen = 1, repeat = 3,
+#             geometry = 0, cblock = 0,
+#             note = 'code end, did not succeed')
 
-delete_label(79521)
+delete_label(38884)
 #
 print(labels)
 
