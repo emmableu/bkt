@@ -1,0 +1,14 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,18951,0,0,0,0,0,0,0,0,0, code start,3j2qZO2sIdd8vYpK,4
+1,18956,0,0,0,0,0,0,0,0,1, custom Block,3j2qZO2sIdd8vYpK,4
+2,18958,1,0,0,0,0,0,0,0,1,    [varDec=NumberOfRotations],3j2qZO2sIdd8vYpK,4
+3,18988,1,0,0,0,0,1,0,0,1, down,3j2qZO2sIdd8vYpK,4
+4,19020,1,0,0,0,0,1,1,0,1, doRepeat,3j2qZO2sIdd8vYpK,4
+5,19021,1,0,0,0,0,1,4,0,1," doRepeat(forward, turn(90))",3j2qZO2sIdd8vYpK,4
+6,19064,1,1,0,0,0,1,4,0,1, repeat(number of rotations),3j2qZO2sIdd8vYpK,4
+7,19122,1,1,1,1,1,1,5,0,1,"          doChangeVar([varMenu=rotationcounter], [literal=1]) in repeat",3j2qZO2sIdd8vYpK,4
+8,19142,1,1,1,1,1,1,6,0,1,"         forward(reportSum([literal=10], [var=rotationcounter]))",3j2qZO2sIdd8vYpK,4
+9,19202,1,1,2,1,1,1,6,0,1,"      doSetVar([varMenu=!!!!!rotationcounter], [literal=0]) (initialize rotationCounter)",3j2qZO2sIdd8vYpK,4
+10,19498,1,1,2,1,1,1,7,0,1,"      correct:    doChangeVar([varMenu=rotationcounter], [literal=10]) in repeat",3j2qZO2sIdd8vYpK,4
+11,19514,1,1,2,1,1,1,8,1,1,     repeat correct times,3j2qZO2sIdd8vYpK,4
+12,19601,1,1,2,1,1,1,8,1,1," code end,succeed",3j2qZO2sIdd8vYpK,4

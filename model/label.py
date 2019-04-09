@@ -1,11 +1,11 @@
 import pandas as pd
 pd.options.display.max_columns = 30
-col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vupdate','Pen', 'Repeat', 'Geometry','Cblock','Note']
+col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vuse','Update', 'Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 2
+student_num = 4
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
-def fill_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cblock, note):
+def fill_labels(row, pcreate, puse, vcreate, vuse, update, pen, repeat, geometry, cblock, note):
     global labels
     for i in range(len(labels.index)):
         if labels.ix[i, 'Row'] == row:
@@ -15,7 +15,8 @@ def fill_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cbl
                     'Pcreate': pcreate,
                    'Puse': puse,
                    'Vcreate': vcreate,
-                   'Vupdate': vupdate,
+                   'Vuse': vuse,
+                   'Update': update,
                    'Pen': pen,
                    'Repeat':repeat,
                    'Geometry': geometry,
@@ -28,13 +29,14 @@ def fill_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cbl
     print(labels)
 
 
-def change_labels(row, pcreate, puse, vcreate, vupdate, pen, repeat, geometry, cblock, note):
+def change_labels(row, pcreate, puse, vcreate, vuse, update, pen, repeat, geometry, cblock, note):
     global labels
     new_record = ({'Row': row,
-                     'Pcreate': pcreate,
+                    'Pcreate': pcreate,
                    'Puse': puse,
                    'Vcreate': vcreate,
-                   'Vupdate': vupdate,
+                   'Vuse': vuse,
+                   'Update': update,
                    'Pen': pen,
                    'Repeat':repeat,
                    'Geometry': geometry,
@@ -59,21 +61,14 @@ def delete_label(row):
 
 
 #
-# fill_labels(row = 3902,
-#             pcreate = 0, puse = 0,
-#             vcreate = 0,  vupdate = 0,
-#             pen = 0, repeat = 0,
-#             geometry = 0, cblock = 0,
-#             note = 'code start')
-#
+fill_labels(row = 19514,
+            pcreate = 1, puse = 1,
+            vcreate = 1,  vuse = 1, update =1,
+            pen = 1, repeat = 8,
+            geometry = 1, cblock = 1,
+            note = '     repeat correct times')
 
 
-fill_labels(row = 3935,
-            pcreate = 0, puse = 0,
-            vcreate = 0,  vupdate = 0,
-            pen = 1, repeat = 0,
-            geometry = 0, cblock = 0,
-            note = 'down')
 
 
 delete_label(79521)
@@ -86,7 +81,7 @@ labels['New Id'] = student_num
 labels.to_csv(filename)
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv')
 for i in range(13, 15):
-    labels.ix[2, 'Pen'] =1
+    labels.ix[9, 'Pen'] =1
 
 # fill_labels(row = 284, create = 0, use = 0, pen = 0, repeat = 0, geometry = 0, cblock = 0, note = "codestart")
 

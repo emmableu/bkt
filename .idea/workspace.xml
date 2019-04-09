@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a6103f-3fe8-48b9-b7e2-71f15eaa11fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/generated-data/label2/squiralHW/student0-squiralHW.csv" beforeDir="false" afterPath="$PROJECT_DIR$/generated-data/label2/squiralHW/student0-squiralHW.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generated-data/label2/squiralHW/student1-squiralHW.csv" beforeDir="false" afterPath="$PROJECT_DIR$/generated-data/label2/squiralHW/student1-squiralHW.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/label.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1150">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="286">
+              <caret line="81" column="76" lean-forward="true" selection-start-line="81" selection-start-column="76" selection-end-line="81" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -54,11 +56,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="35" />
-    <option name="y" value="25" />
-    <option name="width" value="1335" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-2" />
+    <option name="width" value="1360" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,10 +145,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="35" y="25" width="1335" height="1055" extended-state="4" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21857923" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15005359" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,12 +161,12 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.4290188" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.37835053" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3681043" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" visible="true" weight="0.023419203" />
+      <window_info active="true" anchor="right" id="R Graphics" order="3" visible="true" weight="0.01607717" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.01607717" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -191,8 +192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/label.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1150">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="286">
+          <caret line="81" column="76" lean-forward="true" selection-start-line="81" selection-start-column="76" selection-end-line="81" selection-end-column="76" />
         </state>
       </provider>
     </entry>
