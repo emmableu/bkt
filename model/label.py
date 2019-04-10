@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vuse','Update', 'Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 23
+student_num = 25
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
 def fill_labels(row, pcreate, puse, vcreate, vuse, update, pen, repeat, geometry, cblock, note):
@@ -60,12 +60,12 @@ def delete_label(row):
     print(labels)
 
 
-fill_labels(row = 70390,
-            pcreate = 2, puse = 2,
-            vcreate = 0,  vuse = 0, update = 1,
+fill_labels(row = 80232,
+            pcreate = 1, puse = 1,
+            vcreate = 2,  vuse = 1, update = 0,
             pen = 1, repeat =7 ,
-            geometry = 0, cblock = 0,
-            note = 'correct dochange var ')
+            geometry = 1, cblock = 1,
+            note = '             doSetVar([varMenu=!!!!!Steps], [literal=10])')
 
 
 

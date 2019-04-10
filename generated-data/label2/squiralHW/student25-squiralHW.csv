@@ -1,0 +1,14 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,80065,0,0,0,0,0,0,0,0,0,code start,Ybr/n153IFf3oSb.,25
+1,80068,0,0,0,0,0,0,0,0,1,customblock,Ybr/n153IFf3oSb.,25
+2,80069,1,0,0,0,0,0,0,0,1,varDec = number ofrotaitons,Ybr/n153IFf3oSb.,25
+3,80083,1,0,0,0,0,1,0,0,1,down,Ybr/n153IFf3oSb.,25
+4,80097,1,0,0,0,0,1,1,0,1,repeat,Ybr/n153IFf3oSb.,25
+5,80102,1,0,0,0,0,1,2,0,1,repeat(forward,Ybr/n153IFf3oSb.,25
+6,80115,1,1,0,0,0,1,4,1,1,"repeat correct numbers, turn in repeat",Ybr/n153IFf3oSb.,25
+7,80116,1,1,0,0,0,1,5,1,1,turn correct degrees,Ybr/n153IFf3oSb.,25
+8,80122,1,1,0,0,0,1,6,1,1,dochangevar in repeat,Ybr/n153IFf3oSb.,25
+9,80189,1,1,1,0,0,1,6,1,1,vardec=steps,Ybr/n153IFf3oSb.,25
+10,80195,1,1,1,1,0,1,7,1,1, forward([!!!!!var=Steps]),Ybr/n153IFf3oSb.,25
+11,80232,1,1,2,1,0,1,7,1,1,"             doSetVar([varMenu=!!!!!Steps], [literal=10])",Ybr/n153IFf3oSb.,25
+12,80233,1,1,2,1,0,1,8,1,1,"         doChangeVar([varMenu=!!!!!Steps], [literal=5])",Ybr/n153IFf3oSb.,25

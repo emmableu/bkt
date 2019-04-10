@@ -9,6 +9,10 @@ data = pd.read_pickle("data/fall2017-fixed/AllData.pkl")
 data['Problem Name'].unique()
 stepnames = data['Step Name'].unique()
 data['Anon Student Id'].unique()
+data.ix[1, 'Time'] - data.ix[2, 'Time']
+
+
+
 def print_student_code(data, problem_name, student_num):
     c = 0
     valid_c = 0
@@ -37,4 +41,4 @@ def print_student_code(data, problem_name, student_num):
                     print(this_codesnap,  file = open(filename, 'a'))
 
     print("all valid code count: ",valid_c,  file = open(filename, 'a'))
-print_student_code(data,'squiralHW', 23)
+print_student_code(data,'squiralHW', 25)
