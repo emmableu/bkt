@@ -1,0 +1,11 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id,Timespent
+0,69676,0,0,0,0,0,0,0,0,0,  code start,V/1fll6WRZoRHj.m,23,0.0
+1,69697,0,0,0,0,0,1,0,0,0, down,V/1fll6WRZoRHj.m,23,47.0
+2,69705,0,0,0,0,0,1,4,0,0, repeat with forward and turn,V/1fll6WRZoRHj.m,23,67.0
+3,69776,0,0,0,0,0,1,4,0,0,customBlock,V/1fll6WRZoRHj.m,23,378.0
+4,70367,2,0,0,0,0,1,4,0,0," vardec = size, vardec = times",V/1fll6WRZoRHj.m,23,3665.0
+5,70374,2,1,0,0,0,1,4,0,0, repeat(times),V/1fll6WRZoRHj.m,23,3672.0
+6,70377,2,2,0,0,0,1,5,0,0, forward(size),V/1fll6WRZoRHj.m,23,3706.0
+7,70390,2,2,0,0,1,1,7,0,0,correct dochange var ,V/1fll6WRZoRHj.m,23,3743.0
+8,70465,2,2,0,0,1,1,8,1,0,correct amount of repeats,V/1fll6WRZoRHj.m,23,3884.0
+9,70762,2,2,0,0,1,1,8,1,1,"  code end, succeed",V/1fll6WRZoRHj.m,23,60501.0

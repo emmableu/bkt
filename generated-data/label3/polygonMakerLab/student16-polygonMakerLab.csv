@@ -1,0 +1,16 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id,Timespent
+0,46364,0,0,0,0,0,0,code start,O9qMVnHls4Xvaidu,16,0.0
+1,46367,0,0,0,0,0,1,customBlock,O9qMVnHls4Xvaidu,16,13.0
+2,46373,1,0,0,0,0,1, [varDec=!!!!!length],O9qMVnHls4Xvaidu,16,63.0
+3,46374,2,1,0,0,0,1,    [varDec=width],O9qMVnHls4Xvaidu,16,64.0
+4,46398,2,1,0,0,0,1,       forward([!!!!!var=length]) not in repeat,O9qMVnHls4Xvaidu,16,132.0
+5,46416,2,1,1,0,0,1,down,O9qMVnHls4Xvaidu,16,161.0
+6,46423,2,1,2,0,0,1,       !!!!!setSize([literal=1]),O9qMVnHls4Xvaidu,16,169.0
+7,46427,2,2,3,0,0,1,      setSize([var=width]),O9qMVnHls4Xvaidu,16,171.0
+8,46545,3,2,3,0,0,1,varDec=number of sides,O9qMVnHls4Xvaidu,16,497.0
+9,46556,3,2,3,0,1,1,"      turn(!!!!!reportQuotient(literal, literal))",O9qMVnHls4Xvaidu,16,540.0
+10,46562,3,2,3,0,2,1,"       turn(reportQuotient(!!!!![literal=360], literal))",O9qMVnHls4Xvaidu,16,551.0
+11,46563,3,3,3,0,3,1,"       turn(reportQuotient([literal=360], !!!!![var=number of sides]))",O9qMVnHls4Xvaidu,16,556.0
+12,46572,3,3,3,3,3,1,"      !!!!!doRepeat([literal=10], script {turn(reportQuotient([literal=360], [var=number of sides]))})",O9qMVnHls4Xvaidu,16,568.0
+13,46592,3,3,3,5,3,1,"oRepeat([literal=10], script {forward([var=length])",O9qMVnHls4Xvaidu,16,583.0
+14,46601,3,4,3,6,3,1,"  doRepeat([var=number of sides], ",O9qMVnHls4Xvaidu,16,603.0

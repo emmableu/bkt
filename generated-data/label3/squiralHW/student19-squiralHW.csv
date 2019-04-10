@@ -1,0 +1,10 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id,Timespent
+0,56093,0,0,0,0,0,1,1,0,1,dorepeat,QgWvIWV/mT.GFG1G,19,0.0
+1,56108,0,0,0,0,0,1,2,0,1,forward in dorepeat,QgWvIWV/mT.GFG1G,19,21.0
+2,56114,1,0,0,0,0,1,3,0,1,turn in dorepeat,QgWvIWV/mT.GFG1G,19,29.0
+3,56162,1,0,0,0,0,1,4,0,1,turn correct degrees in dorepeat,QgWvIWV/mT.GFG1G,19,142.0
+4,56164,1,0,0,0,1,1,6,0,1, correct dochange,QgWvIWV/mT.GFG1G,19,189.0
+5,56165,2,0,0,0,1,1,6,0,1,  vardec = move,QgWvIWV/mT.GFG1G,19,191.0
+6,56219,2,0,0,0,1,1,6,0,1,  [varDec=var],QgWvIWV/mT.GFG1G,19,270.0
+7,56223,2,1,0,0,1,1,6,0,1,"    doRepeat([!!!!!var=var], ",QgWvIWV/mT.GFG1G,19,273.0
+8,56905,2,1,0,0,1,1,6,0,1,"   end of code, did not succeed because there is only one active variable",QgWvIWV/mT.GFG1G,19,137499.0

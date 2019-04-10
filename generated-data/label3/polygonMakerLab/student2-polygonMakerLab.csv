@@ -1,0 +1,17 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id,Timespent
+0,6779,0,0,0,0,0,0,code start,3/xRRz/k/zsfzhfS,2,0.0
+1,6782,0,0,0,0,0,1,[customBlock=Polygon],3/xRRz/k/zsfzhfS,2,261.0
+2,6784,1,0,0,0,0,1, [varDec=Length],3/xRRz/k/zsfzhfS,2,286.0
+3,6786,2,0,0,0,0,1, [varDec=pen_thickness],3/xRRz/k/zsfzhfS,2,315.0
+4,6787,3,0,0,0,0,1, [varDec=Sides],3/xRRz/k/zsfzhfS,2,324.0
+5,6864,3,0,1,0,0,1,setSize([literal=1]),4/xRRz/k/zsfzhfS,2,1031.0
+6,6868,3,0,2,0,0,1, down,3/xRRz/k/zsfzhfS,2,1056.0
+7,7153,3,1,3,0,0,1,setSize([----->var=Pen Thickness]),3/xRRz/k/zsfzhfS,2,1796.0
+8,7157,3,1,3,1,0,1," doRepeat([literal=10], script)",3/xRRz/k/zsfzhfS,2,1803.0
+9,7161,3,2,3,2,0,1," doRepeat([----->var=Sides], script)",3/xRRz/k/zsfzhfS,2,1816.0
+10,7460,3,2,3,3,0,1,turn([literal=15]),3/xRRz/k/zsfzhfS,2,3336.0
+11,7466,3,2,3,3,1,1,"turn(!!!reportQuotient(literal, literal))",3/xRRz/k/zsfzhfS,2,3351.0
+12,7467,3,2,3,3,2,1,"turn(reportQuotient(!!![literal=360], literal))",3/xRRz/k/zsfzhfS,2,3356.0
+13,7470,3,2,3,4,3,1,"turn(reportQuotient([literal=360], !!![var=Sides]))",3/xRRz/k/zsfzhfS,2,3378.0
+14,7475,3,3,3,5,3,1,"doRepeat([var=Sides], script {forward([!!!literal=10]) turn(reportQuotient([literal=360], [var=Sides]))})",3/xRRz/k/zsfzhfS,2,3409.0
+15,7613,3,4,3,6,3,1,"doRepeat([var=Sides], script {forward([var=Side Thickness]) turn(reportQuotient([literal=360], [var=Sides]))})",3/xRRz/k/zsfzhfS,2,78599.0

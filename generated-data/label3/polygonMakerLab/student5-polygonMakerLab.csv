@@ -1,0 +1,14 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id,Timespent
+0,18125,0,0,0,0,0,0,code start,3z8WDCNQ5Gu4pizy,5,0.0
+1,18157,0,0,1,0,0,0,down,3z8WDCNQ5Gu4pizy,5,110.0
+2,18161,1,0,1,0,0,0,varDec=NumberOfSides],3z8WDCNQ5Gu4pizy,5,141.0
+3,18172,2,0,1,0,0,0,varDec=Length],3z8WDCNQ5Gu4pizy,5,206.0
+4,18173,3,0,1,0,0,0,varDec=Thickness],3z8WDCNQ5Gu4pizy,5,210.0
+5,18178,3,1,1,0,0,0,  forward([!!!!!var=NumberOfSides]),3z8WDCNQ5Gu4pizy,5,226.0
+6,18205,3,1,1,0,0,1,  [!!!!!customBlock=Make a Polygon] {,3z8WDCNQ5Gu4pizy,5,290.0
+7,18391,3,1,1,1,0,1,"   doRepeat([literal=10], script)",3z8WDCNQ5Gu4pizy,5,657.0
+8,18393,3,1,1,4,0,1,"doRepeat([literal=10], script {forward([var=Le... ",3z8WDCNQ5Gu4pizy,5,658.0
+9,18395,3,2,1,5,0,1,"doRepeat([!!!!!var=NumberofSides], sc",3z8WDCNQ5Gu4pizy,5,660.0
+10,18445,3,2,2,5,0,1,setSize([literal=1]),3z8WDCNQ5Gu4pizy,5,721.0
+11,18460,3,3,3,5,0,1, setSize([!!!!!var=Thickness]),3z8WDCNQ5Gu4pizy,5,732.0
+12,18795,3,4,3,6,3,1,"turn(reportQuotient([literal=360], [var=NumberOfSides]))",3z8WDCNQ5Gu4pizy,5,1405.0

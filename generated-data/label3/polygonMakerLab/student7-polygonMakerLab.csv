@@ -1,0 +1,16 @@
+,Row,Create,Use,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id,Timespent
+0,24077,0,0,0,0,0,0, code start,6sGoiaS7AvU3V9YO,7,0.0
+1,24081,0,0,0,0,0,1, customBlock=Make a square of size] {,6sGoiaS7AvU3V9YO,7,508.0
+2,24083,1,0,0,0,0,1, [varDec=length],6sGoiaS7AvU3V9YO,7,518.0
+3,24094,1,0,0,2,0,1,"doRepeat([literal=4], script!!!!! { forward([literal=10])",6sGoiaS7AvU3V9YO,7,532.0
+4,24098,1,0,0,3,0,1,"doRepeat([literal=4], script!!!!! { forward([literal=10]) turn([literal=15])",6sGoiaS7AvU3V9YO,7,550.0
+5,24101,1,1,0,4,0,1,        forward([!!!!!var=length]),6sGoiaS7AvU3V9YO,7,551.0
+6,24110,1,1,1,4,0,1, down ,6sGoiaS7AvU3V9YO,7,561.0
+7,24146,2,1,1,4,0,1,     [varDec=sides #] ,6sGoiaS7AvU3V9YO,7,800.0
+8,24147,3,1,1,4,0,1,      [varDec=thickness #] ,6sGoiaS7AvU3V9YO,7,815.0
+9,24158,3,2,1,5,0,1,"      doRepeat([!!!!!var=sides #], sc ",6sGoiaS7AvU3V9YO,7,833.0
+10,24172,3,2,1,5,1,1,"turnLeft(!!!!!reportQuotient(literal, literal))",6sGoiaS7AvU3V9YO,7,854.0
+11,24173,3,2,1,5,2,1,"                 turnLeft(reportQuotient(!!!!![literal=360], literal)) ",6sGoiaS7AvU3V9YO,7,855.0
+12,24177,3,3,1,6,3,1,"         turnLeft(reportQuotient([literal=360], [var=sides #])) ",6sGoiaS7AvU3V9YO,7,857.0
+13,24183,3,3,2,6,3,1, setSize([literal=1]) ,6sGoiaS7AvU3V9YO,7,866.0
+14,24186,3,4,3,6,3,1,setSize([!!!!!var=thickness #]),6sGoiaS7AvU3V9YO,7,868.0
