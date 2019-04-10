@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a6103f-3fe8-48b9-b7e2-71f15eaa11fb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/model/eda.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/eda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/label.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/label.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/eda.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="515">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/label.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="23" />
+            <state relative-caret-position="92">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -143,10 +144,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="35" y="25" width="1885" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15005359" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1529219" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -159,11 +160,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.4290188" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.28585756" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.29381442" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" visible="true" weight="0.01607717" />
+      <window_info anchor="right" id="R Graphics" order="3" visible="true" weight="0.01638449" />
       <window_info anchor="right" id="R Packages" order="4" weight="0.01607717" />
     </layout>
   </component>
@@ -180,8 +181,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/eda.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="515">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -190,8 +191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/label.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="23" />
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
