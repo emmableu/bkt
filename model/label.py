@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vuse','Update', 'Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 14
+student_num = 15
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
 def fill_labels(row, pcreate, puse, vcreate, vuse, update, pen, repeat, geometry, cblock, note):
@@ -61,20 +61,29 @@ def delete_label(row):
 
 
 
-change_labels(row = 40886,
-            pcreate = 0, puse = 0,
-            vcreate = 0,  vuse = 0, update = 0,
-            pen = 1, repeat = 0,
-            geometry = 0, cblock =0,
-            note = 'down')
-
-#
-# fill_labels(row = 40875,
+# fill_labels(row = 43294,
 #             pcreate = 0, puse = 0,
 #             vcreate = 0,  vuse = 0, update = 0,
 #             pen = 0, repeat = 0,
-#             geometry = 0, cblock = 0,
+#             geometry = 0, cblock =0,
 #             note = 'code start')
+
+#
+fill_labels(row = 43663,
+            pcreate = 1, puse =1,
+            vcreate = 2,  vuse = 1, update = 1,
+            pen = 1, repeat = 7,
+            geometry = 0, cblock = 1,
+            note = '       doSetVar([varMenu=legnth], [literal=!!!!!10])')
+
+
+fill_labels(row = 43723,
+            pcreate = 1, puse = 1,
+            vcreate = 2,  vuse = 1, update = 1,
+            pen = 1, repeat = 7,
+            geometry = 0, cblock = 1,
+            note = ' end of code, did not succeed because of inputting sides instead of rotation')
+
 
 delete_label(38884)
 #
