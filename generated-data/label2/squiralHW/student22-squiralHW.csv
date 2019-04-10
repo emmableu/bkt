@@ -1,0 +1,11 @@
+,Row,Pcreate,Puse,Vcreate,Vuse,Update,Pen,Repeat,Geometry,Cblock,Note,Anon Student Id,New Id
+0,66804,0,0,0,0,0,0,0,0,0,code start,UqxkppJLAsrx8Ufy,22
+1,66821,0,0,0,0,0,0,0,0,1,[customBlock=Squiral],UqxkppJLAsrx8Ufy,22
+2,66850,0,0,0,0,0,0,2,0,1,dorepeat with forward,UqxkppJLAsrx8Ufy,22
+3,66855,1,1,0,0,0,0,2,0,1,    [varDec=sides]; repeat sides,UqxkppJLAsrx8Ufy,22
+4,66856,2,1,0,0,0,0,2,0,1,     [varDec=size],UqxkppJLAsrx8Ufy,22
+5,66859,2,2,0,0,0,0,3,0,1,     [forward(size],UqxkppJLAsrx8Ufy,22
+6,66866,2,2,0,0,0,2,3,0,1,  down,UqxkppJLAsrx8Ufy,22
+7,66929,2,2,0,0,0,1,4,0,1,   dochangevar,UqxkppJLAsrx8Ufy,22
+8,66939,2,2,0,0,1,1,5,0,1,"       doChangeVar([varMenu=Base size], [var=size increased])",UqxkppJLAsrx8Ufy,22
+9,66960,2,2,0,0,1,1,5,0,1,"  code end, turnleft instead of turn, sides instead of rotation, so did not succeed",UqxkppJLAsrx8Ufy,22
