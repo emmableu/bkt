@@ -2,7 +2,7 @@ import pandas as pd
 pd.options.display.max_columns = 30
 col_names  = ['Row','Pcreate', 'Puse','Vcreate', 'Vuse','Update', 'Pen', 'Repeat', 'Geometry','Cblock','Note']
 labels = pd.DataFrame(columns = col_names)
-student_num = 18
+student_num = 19
 # labels = pd.read_csv('generated-data/label2/student19-polygonMakerLab.csv', index_col= 0)
 filename = 'generated-data/label2/squiralHW/student' + str(student_num) + '-squiralHW.csv'
 def fill_labels(row, pcreate, puse, vcreate, vuse, update, pen, repeat, geometry, cblock, note):
@@ -60,31 +60,16 @@ def delete_label(row):
     print(labels)
 
 
-fill_labels(row = 52722,
-            pcreate = 1, puse = 1,
-            vcreate = 1,  vuse = 1, update = 1,
-            pen = 1, repeat = 8,
-            geometry = 1, cblock = 1,
-            note = '   end of code, did not succeed because not initialize length')
-
-#
-fill_labels(row = 43663,
-            pcreate = 1, puse =1,
-            vcreate = 2,  vuse = 1, update = 1,
-            pen = 1, repeat = 7,
+fill_labels(row = 56093,
+            pcreate = 0, puse = 0,
+            vcreate = 0,  vuse = 0, update = 0,
+            pen = 1, repeat = 1,
             geometry = 0, cblock = 1,
-            note = '       doSetVar([varMenu=legnth], [literal=!!!!!10])')
+            note = 'dorepeat')
 
 
-fill_labels(row = 43723,
-            pcreate = 1, puse = 1,
-            vcreate = 2,  vuse = 1, update = 1,
-            pen = 1, repeat = 7,
-            geometry = 0, cblock = 1,
-            note = ' end of code, did not succeed because of inputting sides instead of rotation')
 
-
-delete_label(38884)
+delete_label(56698)
 #
 print(labels)
 
@@ -92,8 +77,8 @@ labels['Anon Student Id'] = map_student.ix[student_num,  'Anon Student Id']
 labels['New Id'] = student_num
 labels.to_csv(filename)
 # labels = pd.read_csv('generated-data/label2/student0-polygonMakerLab.csv')
-for i in range(9, 12):
-    labels.ix[9, 'Vuse'] =1
+for i in range(1, 4):
+    labels.ix[i, 'Repeat'] +=1
 
 # fill_labels(row = 284, create = 0, use = 0, pen = 0, repeat = 0, geometry = 0, cblock = 0, note = "codestart")
 

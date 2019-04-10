@@ -9,5 +9,5 @@
 7,52613,1,1,0,0,0,1,5,1,1,     turn 90 in dorepeat,Pq4VvsKwoQunyf2C,18
 8,52616,1,1,1,0,0,1,5,1,1,[varDec=Length],Pq4VvsKwoQunyf2C,18
 9,52619,1,1,1,1,0,1,6,1,1,forward(length),Pq4VvsKwoQunyf2C,18
-10,52621,1,1,1,0,1,1,8,1,1,"        doChangeVar([varMenu=Length], [literal=!!!!!5])",Pq4VvsKwoQunyf2C,18
+10,52621,1,1,1,1,1,1,8,1,1,"        doChangeVar([varMenu=Length], [literal=!!!!!5])",Pq4VvsKwoQunyf2C,18
 11,52722,1,1,1,1,1,1,8,1,1,"   end of code, did not succeed because not initialize length",Pq4VvsKwoQunyf2C,18
